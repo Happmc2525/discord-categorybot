@@ -1,0 +1,2 @@
+# discord-categorybot
+discordのカテゴリーを自動で作ってくれるbot

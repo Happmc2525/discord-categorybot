@@ -29,7 +29,7 @@ async def pcategory(ctx,name: Option(description="名前を入れてね")
     await ctx.respond("プライベートカテゴリーを作成しました")
 
 @client.slash_command(description="公開カテゴリーを追加するやつ", guild_ids=[DISCORD_SERVER_IDS])
-async def tuisgoc(ctx,arg: Option(description="名前を入れてね")
+async def category(ctx,arg: Option(description="名前を入れてね")
 ):
     OcatName = arg
     Guild = ctx.guild

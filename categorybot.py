@@ -28,7 +28,7 @@ async def pcategory(ctx,name: Option(description="名前を入れてね")
     await category.create_voice_channel("ボイスチャンネル", overwrites=overwrites)
     await ctx.respond("プライベートカテゴリーを作成しました")
 
-@client.slash_command(description="公開カテゴリーを追加するやつ", guild_ids=[DISCORD_SERVER_IDS])
+@client.slash_command(description="カテゴリーを追加するやつ", guild_ids=[DISCORD_SERVER_IDS])
 async def category(ctx,arg: Option(description="名前を入れてね")
 ):
     OcatName = arg

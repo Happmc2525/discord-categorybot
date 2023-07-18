@@ -3,9 +3,9 @@ discordのカテゴリーを作ってくれるbotです。同時にテキスト�
 
 コマンド:
 
-/category <name> - カテゴリーを作成します
+/category [name] - カテゴリーを作成します
 
-/pcategory <name> - プライベートカテゴリーを作成します
+/pcategory [name] - プライベートカテゴリーを作成します
 
 [はっぴーさーばー2](https://happymc.jimdo.com/)
 のDiscordサーバーで使用していました
